@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background:rgb(22, 21, 21);
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#header{
+    padding: 30px 0;
+}
+.header{
+    display: flex;
+  align-items: center;
+    justify-content: space-between;
+}
+.a{
+    display: flex;
+    gap: 30px;
+    
+}
+.a a{
+    color: white;
+   
+}
+.text2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.text2 h2{
+    color: white;
+    font-size: 70px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    /* margin-left: 30px; */
+}
+.text h1{
+color: white;
+font-size: 70px;
+font-weight: 200;
+width: 450px;
+}
+
+.logo{
+    margin-top: 60px;
+}
+
+.logo2{
+    position: absolute;
+    margin-top: -860px;
+    margin-left: -30px;
+}
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.hero2 h1{
+    color: white;
+    font-size: 60px;
+}
+.hero2 button{
+    width: 178px;
+height: 51px;
+top: 23.56px;
+left: 1122px;
+gap: 0px;
+opacity: 0px;
+background: 
+#118DA8;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+.block{
+    width: 1260px;
+    display: flex;
+    gap:50px   ;
+    height: 545px;
+    background: black;
+    border-radius: 30px;
+padding: 40px;
+margin-top: 60px;
+}
+
+
+.btn{
+    padding: 3px 16px;
+  color: white;
+  font-weight: 400;
+  background: #191919;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.card h2{
+    margin-top: 60px;
+    color: 
+    #118DA8;
+    font-weight: 200;
+    font-size: 18px;
+}
+.card  h1{
+    color: white;
+    font-size: 60px;
+    width: 620px;
+    margin-top: 40px;
+}
+.card p{
+    color: rgb(175, 169, 169);
+    margin-top: 40px;
+    width: 590px;
+    font-size: 18px;
+    height:60px ;
+    line-height: 1.5;
+}
+.bt{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px; 
+    color: white;
+    font-size: 18px;
+    background: #118DA8;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.foto2{
+    display: flex;
+ justify-content:space-between !important;
+ align-items: center;
+ margin-top: 200px;
+}
+
+.block2 img{
+margin-bottom: 20px;
+}
+.block2 h2{
+    color:#118DA8;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    
+}
+.block2 h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.block2 p{
+    color: rgb(186, 179, 179);
+    font-size: 20px;
+    width: 500px;
+    line-height: 30px;
+}.block2 h3{
+    color: rgb(186, 179, 179);
+    font-size: 20px;
+    width: 500px;
+    line-height: 30px;
+    margin-top: 30px;
+    font-weight: 200;
+}
+.foto3 img{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -80px;
+}
+
+.foto3{
+    display: flex;
+    padding: 50px;
+    width: 1260px;
+    height: 387px;
+    background: black;
+    border-radius: 30px;
+    gap: 250px;
+    margin-top: 180px;
+}
+
+.car p{
+    color: #118DA8;
+    margin-top: 30px;
+}
+.car h1{
+    color: white;
+    font-size: 60px;
+    width: 350px;
+    font-weight: 300;
+}
+.car2 button{
+    padding: 15px 30px;
+    border: none; 
+    border-radius: 5px;
+    color: white;
+    background:#118DA8;
+    cursor: pointer;
+}
+.car2{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.car2 input{
+    padding: 25px 290px 25px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background: 
+    #191919 ;
+    border: none;
+
+}
+.foto4{
+    margin-top: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.star{
+    width: 400px;
+    height: 321px;
+    background: black;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.star h1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    margin-top: 25px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.star a{
+    color: rgb(158, 154, 154);
+    font-size: 24px;
+   
+}
+.bot{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+  
+}
+#foot{
+    margin-bottom: 100px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.bot2{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
